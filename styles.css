@@ -1,13 +1,13 @@
-/* Reset and basic styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header styling */
+
 header {
-    background-color: #FF5733;
+    background-color: white;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -19,14 +19,14 @@ nav a {
     text-decoration: none;
 }
 
-/* Hero section styling */
+
 .hero {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 4rem 2rem;
-    background-color: #FFC300;
+    background-color: white;
     position: relative;
 }
 
@@ -70,7 +70,18 @@ nav a {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Login form styling */
+.logo-title {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo-image {
+    width: 80px; 
+    height: auto;
+    margin-right: 3px; 
+}
+
+
 .login-form {
     max-width: 400px;
     margin: 5rem auto;
@@ -142,7 +153,7 @@ footer {
     bottom: 0;
 }
 
-/* Search bar styling */
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -157,13 +168,13 @@ footer {
     border: 1px solid #ddd;
     border-radius: 4px 0 0 4px;
     font-size: 1rem;
-    width: 200px; /* Adjust width as needed */
+    width: 200px; 
 }
 
 .search-bar button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #C70039; /* Button color */
+    background-color: #C70039; 
     color: white;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
@@ -174,13 +185,13 @@ footer {
     background-color: #900C3F;
 }
 
-/* Header content adjustments */
+
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #FFCC00;
+    background-color: lightskyblue;
     color: #333;
 }
 
@@ -189,3 +200,39 @@ footer {
     margin-right: 1rem;
 }
 
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(77, 155, 234); 
+    color: #333;
+}
+
+.logo-image {
+    width: 150px; 
+    height: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0; 
+    font-size: 4.5rem; 
+    font-weight: bold;
+    size: 20px;
+}
+
+.login-button {
+    background-color: #FFCC00;
+    color: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
